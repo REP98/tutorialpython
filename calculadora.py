@@ -6,7 +6,7 @@
 
 import sys
 
-def help():
+def helps():
     print("""\
  Por: Robert Pérez
  Para Tutoriales Python en VEB
@@ -46,7 +46,7 @@ elif sys.argv[1] == "-d":
         div = int(sys.argv[2]) // int(sys.argv[3])
         print(sys.argv[2] + " // " + sys.argv[3] + " = " + str(div))
 elif sys.argv[1] == "-h":
-    help()
+    helps()
 else:
     print("Debe indicar un parametro de operación\n -------------------------")
-    help()
+    helps()
